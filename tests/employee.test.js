@@ -1,7 +1,7 @@
 const Employee = require('../lib/employee')
 
 test("retrieve ID", () => {
-    const userID = 9;
+    const userID = 2121;
     const e = new Employee("first", "last", userID);
     expect(e.getId()).toBe(`${userID}`);
 });
